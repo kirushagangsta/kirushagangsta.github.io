@@ -1,0 +1,261 @@
+html {
+    overflow-x: hidden;
+    width: 103%;
+}
+
+.container-fluid {
+    width: 105%;
+}
+.navbar{
+    min-height: 130px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.nav-text {
+    font-size: 18px;
+    color: rgb(57, 62, 107) !important;
+    text-transform: uppercase;
+}
+
+.navbar {
+    box-shadow: 0 3px 7px rgba(0, 0, 2, 0.25);
+    min-height: 130px;
+
+}
+
+.navbar-nav {
+    z-index: 12;
+    opacity: 100%;
+}
+
+.green-bg {
+    background: linear-gradient(90deg, rgba(238, 238, 18, 1) 0%, rgba(76, 159, 179, 1) 0%, rgba(49, 225, 206, 1) 100%, rgba(49, 225, 206, 1) 100%);
+    width: 50%;
+    height: 210px;
+    position: absolute;
+    top: -80px;
+    left: -10%;
+    box-shadow: 5px 2px 7px rgba(0, 0, 2, 0.25);
+    border-bottom-right-radius: 40% 100%;
+    z-index: 10;
+
+}
+
+.icon {
+    background: url('../img/sprite.png') no-repeat top left;
+    width: 75px;
+    height: 75px;
+}
+
+.icon-first {
+    background-size: 100%;
+    background-position: 0 0;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-second {
+    background-size: 100%;
+    background-position: 0 -50px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-app {
+    background-size: 100%;
+    background-position: 0 -85px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-chatbots {
+    background-size: 100%;
+    background-position: 0 -128px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-email {
+    background-size: 100%;
+    background-position: 0 -170px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-feedback {
+    background-size: 100%;
+    background-position: 0 -213px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-msn {
+    background-size: 100%;
+    background-position: 0 -255px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-sn {
+    background-size: 100%;
+    background-position: 0 -298px;
+    height: 42px;
+    width: 42px;
+}
+
+.icon-step01 {
+    background-position: 0 -608px;
+}
+
+.icon-step02 {
+    background-position: 0 -684px;
+}
+
+.icon-step03 {
+    background-position: 0 -760px;
+}
+
+.icon-step04 {
+    background-position: 0 -836px;
+}
+
+.icon-step05 {
+    background-position: 0 -912px;
+}
+
+.icon-step06 {
+    background-position: 0 -988px;
+}
+
+.icon-yad {
+    background-size: 100%;
+    background-position: 0 -596px;
+    height: 42px;
+    width: 42px;
+}
+
+.first-bg {
+    background-color: rgb(239, 244, 244);
+}
+
+.second-bg {
+    background-color: #FFFFFF;
+}
+
+.steps-descr {
+    text-transform: none;
+    font-weight: normal;
+}
+
+.steps-number {
+    font-size: 24px;
+    text-transform: none;
+}
+
+.setup-header {
+    font-size: 36px;
+}
+
+.header-text {
+    color: rgb(57, 62, 107);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-text {
+    font-size: 16px;
+    color: rgb(116, 117, 123);
+}
+
+.color-main {
+    color: rgb(57, 62, 107);
+}
+
+.try-btn {
+    background-color: rgb(44, 211, 184);
+    font-size: 18px;
+    color: white;
+    border-radius: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tax-btn {
+    border: 1px rgb(57, 62, 107) solid;
+    font-size: 18px;
+    color: rgb(57, 62, 107);
+    border-radius: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.test-btn {
+    background: rgb(57, 62, 107);
+    font-size: 18px;
+    color: white;
+    border-radius: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.html-site {
+    font-size: 24px;
+    color: rgb(13, 160, 136);
+    text-decoration: underline;
+}
+
+.big-number {
+    font-size: 150px;
+    color: rgb(57, 62, 107);
+    font-weight: bold;
+    opacity: 0.149;
+}
+
+.setup {
+    padding-top: 90px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.contact {
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgb(13, 160, 136);
+}
+
+li {
+    color: rgb(59, 66, 105);
+}
+
+footer {
+    background-color: rgb(58, 62, 107);
+
+}
+
+.footer-text {
+    color: #B2B2B2;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-footer-big {
+    font-size: 24px;
+}
+.html-setup{
+    font-size: 30px;
+}
+@media screen and (max-width: 776px) {
+    .html-setup {
+        font-size: 25px;
+    }
+}
